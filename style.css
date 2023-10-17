@@ -52,27 +52,57 @@ aside>p{
     margin-top: 30px;
     display: inline-block;
 }
-.asideabout>img{
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    margin-left: 10px;
-   display: inline-block;
-   top: bottom;
-}
-.asideabout>p{
-display: inline-block;
-width: 12rem;
-}
 
-.asideabout>p{
-    text-align: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 0;
+
+.image2{
     display: inline-block;
-}
+    width: 300px;
+    height: 300px;
+    margin-left: 320px;
 
+}
+.p2{
+    display:inline-block;
+    object-fit: cover;
+    width: 30%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.image3{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 320px;
+}
+.p3{
+    display:inline-block;
+    object-fit: cover;
+    width: 30%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.image4{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 320px;
+}
+.p4{
+    display:inline-block;
+    object-fit: cover;
+    width: 30%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
 main{
     text-align: center;
 }
@@ -90,13 +120,47 @@ main{
 }
 
 .image5{
-    width: 100%;
+    width: 96%;
     object-fit: cover;
     object-position: top;
+    display: inline-block;
+    padding-left: 30px;
 }
 .texto{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.correo{
+
+    text-align: center;
+    margin-left: 150px;
+    background-color: burlywood;
+    border: 1px;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+}
+.contacto{
+    color: black;
+    text-align: center;
+    margin-left: 500px;
+    border: 1px;
+    background-color: burlywood;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+
+}
+a{
+    color: black;
+    background-color: burlywood;
+    text-decoration: none;
+    font-weight: 600;
 }
