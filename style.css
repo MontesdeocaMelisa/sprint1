@@ -1,0 +1,21 @@
+*{
+    background-color: powderblue;
+    
+}
+nav{
+    display: inline;
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
+.logo{
+    display: inline-block;
+    margin: 0 15px;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
