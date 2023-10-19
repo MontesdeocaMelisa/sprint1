@@ -1,18 +1,52 @@
+/*Css de la pagina Home*/
 *{
     background-color:papayawhip;
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
-nav{
+.mainrating{
+    margin-left: 2rem;
+}
+.divlista1{
+    display: flex;
+
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+.aside>img{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    margin-left: 10px;
+}
+main{
+    text-align: center;
+}
+.lista>a{
     color: black;
-    display: inline-block;
-    width: 90%;
-    margin-top: 20px;
+    border: 1px;
+    background-color: burlywood;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: flex;
+}
+a{
+    color: black;
+    background-color: burlywood;
+    text-decoration: none;
+    font-weight: 600;
 }
 .logo{
-    display: inline-block;
-    margin: 0 15px;
+    display: flex;
+    justify-content:right;
+    margin-left: 850px;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
 }
 .banner{
     width: 100%;
@@ -21,128 +55,108 @@ nav{
     object-position: top;
     
 }
-
-nav>a{
+nav{
     color: black;
-    border: 1px;
-    background-color: burlywood;
-    padding: 1rem;
-    border-radius: 2rem;
-    text-decoration: none;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
-h1,h2,h3{
-    text-align: center;
-}
-
-.aside>p{
-    display: inline-block;
-    width: 12rem;
-}
-.aside>img{
-    height: 15rem;
-    width: 15rem;
-    object-fit: cover;
-    margin-left: 10px;
-}
-aside>p{
-    text-align: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    display: inline-block;
-}
-
-
-.image2{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    margin-left: 320px;
-
-}
-.p2{
-    display:inline-block;
-    object-fit: cover;
-    width: 30%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-
-}
-.image3{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    margin-left: 320px;
-}
-.p3{
-    display:inline-block;
-    object-fit: cover;
-    width: 30%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-
-}
-.image4{
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-    margin-left: 320px;
-}
-.p4{
-    display:inline-block;
-    object-fit: cover;
-    width: 30%;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+.divnav{
+    display: flex;
 
 }
 main{
-    text-align: center;
+    display: flex;
 }
-.logo>img{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-
-}
-.logo{
-    display: block;
+.aside{
+    display: flex;
 }
 .texto{
-    text-align: center;
+    display: flex;
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.image1{
+    display: flex;
+    width: 300px;
 }
 
+/*Css de la pagina abautus*/
+.dos{
+    display: flex;
+}
+.image2{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.p2{
+    display: flex;
+    margin-left: 30px;
+   margin-top: 150px;
+}
+
+.tres{
+    display: flex;
+}
+.image3{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.p3{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.cuatro{
+    display: flex;
+}
+.image4{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+}
+.p4{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+/*Css de la pagina Contact*/
 .image5{
     width: 96%;
     object-fit: cover;
     object-position: top;
-    display: inline-block;
-    padding-left: 30px;
+    padding-left: 40px;
 }
-.texto{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+p{
     text-align: center;
 }
+main{
+    display: block;
+}
+.contact{
+    display: flex;
+}
+.contacto{
+    display: flex;
+}
 .correo{
-
     text-align: center;
     margin-left: 150px;
     background-color: burlywood;
     border: 1px;
-    padding: 1rem;
+    padding:1rem;
     border-radius: 2rem;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     width: 20%;
 }
 .contacto{
@@ -154,13 +168,39 @@ main{
     padding: 1rem;
     border-radius: 2rem;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     width: 20%;
+}
+
+
+/*Css de la pagina Services*/
+table{
+    margin-left: 480px;
+}
+table,
+td,
+th,
+tr {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+
 
 }
-a{
-    color: black;
+th{
     background-color: burlywood;
-    text-decoration: none;
-    font-weight: 600;
+}
+/*Css de la pagina rating*/
+article{
+    display: flex;
+}
+ul{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: large;
+}
+.rating{
+    text-align: center;
+    font-size: larger;
+
 }
