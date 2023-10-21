@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .mainrating{
     margin-left: 2rem;
@@ -39,11 +40,12 @@ a{
     background-color: burlywood;
     text-decoration: none;
     font-weight: 600;
+
 }
 .logo{
     display: flex;
-    justify-content:right;
-    margin-left: 850px;
+    justify-content: right;
+    margin-left: 770px;
     object-fit: cover;
     height: 80px;
     width: 80px;
@@ -60,11 +62,11 @@ nav{
     display: flex;
     margin-top: 20px;
     margin-left: 15px;
+
 }
 
 .divnav{
     display: flex;
-
 }
 main{
     display: flex;
@@ -187,6 +189,10 @@ tr {
 
 
 }
+table>h1,h2{
+    display: flex;
+    align-items: center;
+}
 th{
     background-color: burlywood;
 }
@@ -203,4 +209,67 @@ ul{
     text-align: center;
     font-size: larger;
 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50vh;
+    border: 2px solid black;
+    color: black;
+    font-family: "poppins";
+    margin-right: 200px;
+
+}
+main{
+    display: flex;
+    justify-content: right;
+    margin: 5vh;
+
+}
+input{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 5px;
+
+}
+label{
+display: flex;
+}
+
+.acepto{
+    font-size: 8px;
+    display: flex;
+}
+.checkbox{
+    display: flex;
+    margin-left: 0;
+}
+.submit{
+    display: flex;
+}
+input[type="submit"]{
+    align-self: flex-end;
+    width: 5rem;
+}
+.hire{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.hiresub{
+ display: flex;
+ justify-content: center;
+}
+.hireh3{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.mapa{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin-right: 200px;
+    border: 1px solid black;
 }
