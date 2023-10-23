@@ -4,91 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mindy Photo</title>
     <link rel="stylesheet" href="../../style.css">
-    <link rel="shortcut icon" href="../images-Sprint1/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/images-Sprint1/favicon.png" type="image/x-icon">
+    <title>Mindy Photo</title>
 </head>
-
-<body>
-    <header>
-        <div class="divnav">
-            <nav class="lista">
-                <a href="../../index.html">Home</a>
-                <a href="./aboutUs.html">About</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./services.html">Services</a>
-                <a href="./rating.html">Rating</a>
-                <a href="./hire.html">Hire</a>
-            </nav>
-            <img src="../images-Sprint1/logo.png" alt="logo" class="logo">
-        </div>
-
-            <h1 class="hire">Hire</h1>
-            <h2 class="hiresub">Fill out the form so we can attend your event</h2>
-    </header>
-
-    <main>
-        <div>
-            <h3 class="hireh3">Our Location</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0442234197!2d-118.7413994902036!3d34.02060844444093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Ángeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1697849169179!5m2!1ses-419!2sar"
-                class="mapa"></iframe>
-        </div>
-        <form action="">
-            <fieldset>
-                <label for="name">First Name and Last Name</label>
-                <input type="text" name="name">
-
-            </fieldset>
-            <fieldset>
-                <label for="phone">Phone Number</label>
-                <input type="text" name="phone">
-            </fieldset>
-            <fieldset>
-                <label for="name">Choose Services</label>
-                <select name="Service" id="Select service">
-                    <option value="Select service">--Select Service--</option>
-                    <option value="Servicio 1">Wedding</option>
-                    <option value="Servicio 2">Birthday</option>
-                    <option value="Servicio 3">Kids Birthday</option>
-                    <option value="Servicio 4">Photo Studio/Outside</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <label>Choose Date</label>
-                <input type="date">
-            </fieldset>
-            <fieldset class="">
-                <label for="Chose Options">Payments Options</label>
-                <label for="Cash">
-                    <input type="radio" name="Cash">Cash
-                </label>
-                <label for="Credit Card">
-                    <input type="radio" name="Credit Card">Credit Card
-                </label>
-                <label for="Debit Card">
-                    <input type="radio" name="Debit Card">Debit Card
-                </label>
-            </fieldset>
-            <fieldset>
-                <label>Message (location and time)</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </fieldset>
-
-            <fieldset class="submit">
-                <input type="checkbox" name="Aceptar terminos y condiciones" class="checkbox">
-                <label for="Aceptar terminos y condiciones" class="acepto">I  accept terms and conditions...</label>
-                <input type="submit">
-            </fieldset>
-
-
-            </fieldset>
-
-
-        </form>
-
-    </main>
-
+    <body class="bodyhire">
+        <header>
+            <div class="divnav">
+                <nav class="lista">
+                    <a href="../../index.html">Home</a>
+                    <a href="./aboutUs.html">About</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./rating.html">Rating</a>
+                    <a href="./hire.html">Hire</a>
+                </nav>
+                <img src="../images-Sprint1/logo.png" alt="logo" class="logo">
+            </div>
+    
+                <h1 class="hire">Hire</h1>
+                <h2 class="hiresub">Fill out the form so we can attend your event</h2>
+        </header>
+    
+        <main class="hiremain">
+            <div>
+                <h3 class="hireh3">Our Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0442234197!2d-118.7413994902036!3d34.02060844444093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Ángeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1697849169179!5m2!1ses-419!2sar"
+                    class="mapa"></iframe>
+            </div>
+            <form action="../../show_data.html">
+                <fieldset>
+                    <label for="name">First Name and Last Name</label>
+                    <input type="text" name="name" id="name">
+                </fieldset>
+                <fieldset>
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone">
+                </fieldset>
+                <fieldset>
+                    <label for="Service">Choose Services</label>
+                    <select name="Service" id="Service">
+                        <option value="Selectservice">--Select Service--</option>
+                        <option value="Servicio 1">Wedding</option>
+                        <option value="Servicio 2">Birthday</option>
+                        <option value="Servicio 3">Kids Birthday</option>
+                        <option value="Servicio 4">Photo Studio/Outside</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="date">Choose Date</label>
+                    <input type="date" name="date" id="date">
+                </fieldset>
+                <fieldset >
+                    <legend>Payments Options</legend>
+                    <label for="Cash">
+                        <input type="radio" name="Cash" id="Cash">Cash
+                    </label>
+                    <label for="CreditCard">
+                        <input type="radio" name="CreditCard" id="CreditCard">Credit Card
+                    </label>
+                    <label for="DebitCard">
+                        <input type="radio" name="DebitCard" id="DebitCard">Debit Card
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label for="message">Message (location and time)</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </fieldset>
+    
+                <fieldset class="submit">
+                    <input type="checkbox" name="Aceptarterminosycondiciones" class="checkbox">
+                    <label  class="acepto">I  accept terms and conditions...</label>
+                    <input type="submit">
+                </fieldset>
+            </form>
+    
+        </main>
+        <footer>
+            <h3>Created By Melisa Montes de oca</h3>
+        </footer>
+    
 </body>
-
 </html>
